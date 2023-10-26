@@ -1,0 +1,231 @@
+# depslib dependency file v1.0
+1693417921 source:c:\users\sebastian\desktop\juan\dev\sistema de gestion\cargarcadena.cpp
+	<iostream>
+	"CargarCadena.h"
+
+1693417933 c:\users\sebastian\desktop\juan\dev\sistema de gestion\cargarcadena.h
+
+1695998425 source:c:\users\sebastian\desktop\juan\dev\sistema de gestion\cliente.cpp
+	<iostream>
+	"CargarCadena.h"
+	"Cliente.h"
+
+1695998391 c:\users\sebastian\desktop\juan\dev\sistema de gestion\cliente.h
+	"Direccion.h"
+
+1693415239 c:\users\sebastian\desktop\juan\dev\sistema de gestion\direccion.h
+	<cstring>
+
+1698246435 source:c:\users\sebastian\desktop\juan\dev\sistema de gestion\clientemanager.cpp
+	"ClienteManager.h"
+	"CargarCadena.h"
+	<iostream>
+
+1697840868 c:\users\sebastian\desktop\juan\dev\sistema de gestion\clientemanager.h
+	"Cliente.h"
+	"ClienteArchivo.h"
+
+1698246212 source:c:\users\sebastian\desktop\juan\dev\sistema de gestion\clientemenu.cpp
+	<iostream>
+	"ClienteMenu.h"
+	"ListarClientesMenu.h"
+
+1698245827 c:\users\sebastian\desktop\juan\dev\sistema de gestion\clientemenu.h
+	"ClienteManager.h"
+
+1693941070 source:c:\users\sebastian\desktop\juan\dev\sistema de gestion\direccion.cpp
+	<iostream>
+	<cstring>
+	"Direccion.h"
+	"CargarCadena.h"
+
+1695998089 source:c:\users\sebastian\desktop\juan\dev\sistema de gestion\fecha.cpp
+	<iostream>
+	"Fecha.h"
+
+1695995280 c:\users\sebastian\desktop\juan\dev\sistema de gestion\fecha.h
+
+1695999313 source:c:\users\sebastian\desktop\juan\dev\sistema de gestion\main.cpp
+	<iostream>
+	"Programa.h"
+
+1695999366 c:\users\sebastian\desktop\juan\dev\sistema de gestion\programa.h
+
+1698241705 source:c:\users\sebastian\desktop\juan\dev\sistema de gestion\ajustesmenu.cpp
+	<iostream>
+	"AjustesMenu.h"
+
+1698241578 c:\users\sebastian\desktop\juan\dev\sistema de gestion\ajustesmenu.h
+
+1698243885 source:c:\users\sebastian\desktop\juan\dev\sistema de gestion\operacionesmenu.cpp
+	<iostream>
+	"OperacionesMenu.h"
+	"ListarOperacionesMenu.h"
+
+1698240920 c:\users\sebastian\desktop\juan\dev\sistema de gestion\operacionesmenu.h
+
+1698241520 source:c:\users\sebastian\desktop\juan\dev\sistema de gestion\tesoreriamenu.cpp
+	<iostream>
+	"TesoreriaMenu.h"
+
+1698241411 c:\users\sebastian\desktop\juan\dev\sistema de gestion\tesoreriamenu.h
+
+1698241725 source:c:\users\sebastian\desktop\juan\dev\sistema de gestion\programa.cpp
+	<iostream>
+	"Programa.h"
+	"ClienteMenu.h"
+	"OperacionesMenu.h"
+	"TipoPrestamoMenu.h"
+	"TesoreriaMenu.h"
+	"AjustesMenu.h"
+
+1698241170 c:\users\sebastian\desktop\juan\dev\sistema de gestion\tipoprestamomenu.h
+
+1698246331 c:\users\sebastian\desktop\juan\dev\sistema de gestion\listarclientesmenu.h
+	"ClienteManager.h"
+
+1698244049 c:\users\sebastian\desktop\juan\dev\sistema de gestion\listaroperacionesmenu.h
+
+1698243736 source:c:\users\sebastian\desktop\juan\dev\sistema de gestion\tipoprestamomenu.cpp
+	<iostream>
+	"TipoPrestamoMenu.h"
+	"ListarTipoPrestamosMenu.h"
+
+1698244065 c:\users\sebastian\desktop\juan\dev\sistema de gestion\listartipoprestamosmenu.h
+
+1698244278 source:c:\users\sebastian\desktop\juan\dev\sistema de gestion\listaroperacionesmenu.cpp
+	<iostream>
+	"ListarOperacionesMenu.h"
+
+1698244331 source:c:\users\sebastian\desktop\juan\dev\sistema de gestion\listartipoprestamosmenu.cpp
+	<iostream>
+	"ListarTipoPrestamosMenu.h"
+
+1697838815 c:\users\sebastian\desktop\juan\dev\sistema de gestion\clientearchivo.h
+	"Cliente.h"
+
+1697841276 source:c:\users\sebastian\desktop\juan\dev\sistema de gestion\clientearchivo.cpp
+	<iostream>
+	<clocale>
+	"ClienteArchivo.h"
+
+1698246510 source:c:\users\sebastian\desktop\juan\dev\sistema de gestion\listarclientesmenu.cpp
+	<iostream>
+	"ListarClientesMenu.h"
+
+1698246749 source:c:\users\angel\downloads\sistema-de-gestion-master\sistema-de-gestion-master\ajustesmenu.cpp
+	<iostream>
+	"AjustesMenu.h"
+
+1698246749 c:\users\angel\downloads\sistema-de-gestion-master\sistema-de-gestion-master\ajustesmenu.h
+
+1698246749 source:c:\users\angel\downloads\sistema-de-gestion-master\sistema-de-gestion-master\cargarcadena.cpp
+	<iostream>
+	"CargarCadena.h"
+
+1698246749 c:\users\angel\downloads\sistema-de-gestion-master\sistema-de-gestion-master\cargarcadena.h
+
+1698293126 source:c:\users\angel\downloads\sistema-de-gestion-master\sistema-de-gestion-master\cliente.cpp
+	<iostream>
+	"CargarCadena.h"
+	"Cliente.h"
+
+1698293122 c:\users\angel\downloads\sistema-de-gestion-master\sistema-de-gestion-master\cliente.h
+	"Direccion.h"
+
+1698246749 c:\users\angel\downloads\sistema-de-gestion-master\sistema-de-gestion-master\direccion.h
+	<cstring>
+
+1698294387 source:c:\users\angel\downloads\sistema-de-gestion-master\sistema-de-gestion-master\clientemanager.cpp
+	"ClienteManager.h"
+	"CargarCadena.h"
+	<iostream>
+	<cstring>
+
+1698294061 c:\users\angel\downloads\sistema-de-gestion-master\sistema-de-gestion-master\clientemanager.h
+	"Cliente.h"
+	"ClienteArchivo.h"
+	<cstring>
+
+1698260139 c:\users\angel\downloads\sistema-de-gestion-master\sistema-de-gestion-master\clientearchivo.h
+	"Cliente.h"
+
+1698259177 source:c:\users\angel\downloads\sistema-de-gestion-master\sistema-de-gestion-master\clientemenu.cpp
+	<iostream>
+	"ClienteMenu.h"
+	"ListarClientesMenu.h"
+
+1698246749 c:\users\angel\downloads\sistema-de-gestion-master\sistema-de-gestion-master\clientemenu.h
+	"ClienteManager.h"
+
+1698246749 c:\users\angel\downloads\sistema-de-gestion-master\sistema-de-gestion-master\listarclientesmenu.h
+	"ClienteManager.h"
+
+1698246749 source:c:\users\angel\downloads\sistema-de-gestion-master\sistema-de-gestion-master\direccion.cpp
+	<iostream>
+	<cstring>
+	"Direccion.h"
+	"CargarCadena.h"
+
+1698246749 source:c:\users\angel\downloads\sistema-de-gestion-master\sistema-de-gestion-master\fecha.cpp
+	<iostream>
+	"Fecha.h"
+
+1698246749 c:\users\angel\downloads\sistema-de-gestion-master\sistema-de-gestion-master\fecha.h
+
+1698258088 source:c:\users\angel\downloads\sistema-de-gestion-master\sistema-de-gestion-master\listarclientesmenu.cpp
+	<iostream>
+	"ListarClientesMenu.h"
+
+1698246749 source:c:\users\angel\downloads\sistema-de-gestion-master\sistema-de-gestion-master\listaroperacionesmenu.cpp
+	<iostream>
+	"ListarOperacionesMenu.h"
+
+1698246749 c:\users\angel\downloads\sistema-de-gestion-master\sistema-de-gestion-master\listaroperacionesmenu.h
+
+1698246749 source:c:\users\angel\downloads\sistema-de-gestion-master\sistema-de-gestion-master\listartipoprestamosmenu.cpp
+	<iostream>
+	"ListarTipoPrestamosMenu.h"
+
+1698246749 c:\users\angel\downloads\sistema-de-gestion-master\sistema-de-gestion-master\listartipoprestamosmenu.h
+
+1698246749 source:c:\users\angel\downloads\sistema-de-gestion-master\sistema-de-gestion-master\main.cpp
+	<iostream>
+	"Programa.h"
+
+1698246749 c:\users\angel\downloads\sistema-de-gestion-master\sistema-de-gestion-master\programa.h
+
+1698246749 source:c:\users\angel\downloads\sistema-de-gestion-master\sistema-de-gestion-master\operacionesmenu.cpp
+	<iostream>
+	"OperacionesMenu.h"
+	"ListarOperacionesMenu.h"
+
+1698246749 c:\users\angel\downloads\sistema-de-gestion-master\sistema-de-gestion-master\operacionesmenu.h
+
+1698246749 source:c:\users\angel\downloads\sistema-de-gestion-master\sistema-de-gestion-master\programa.cpp
+	<iostream>
+	"Programa.h"
+	"ClienteMenu.h"
+	"OperacionesMenu.h"
+	"TipoPrestamoMenu.h"
+	"TesoreriaMenu.h"
+	"AjustesMenu.h"
+
+1698246749 c:\users\angel\downloads\sistema-de-gestion-master\sistema-de-gestion-master\tipoprestamomenu.h
+
+1698246749 c:\users\angel\downloads\sistema-de-gestion-master\sistema-de-gestion-master\tesoreriamenu.h
+
+1698246749 source:c:\users\angel\downloads\sistema-de-gestion-master\sistema-de-gestion-master\tesoreriamenu.cpp
+	<iostream>
+	"TesoreriaMenu.h"
+
+1698246749 source:c:\users\angel\downloads\sistema-de-gestion-master\sistema-de-gestion-master\tipoprestamomenu.cpp
+	<iostream>
+	"TipoPrestamoMenu.h"
+	"ListarTipoPrestamosMenu.h"
+
+1698260147 source:c:\users\angel\downloads\sistema-de-gestion-master\sistema-de-gestion-master\clientearchivo.cpp
+	<iostream>
+	<clocale>
+	"ClienteArchivo.h"
+
