@@ -147,7 +147,7 @@
 	"ClienteArchivo.h"
 	<cstring>
 
-1698260139 c:\users\angel\downloads\sistema-de-gestion-master\sistema-de-gestion-master\clientearchivo.h
+1698349649 c:\users\angel\downloads\sistema-de-gestion-master\sistema-de-gestion-master\clientearchivo.h
 	"Cliente.h"
 
 1698259177 source:c:\users\angel\downloads\sistema-de-gestion-master\sistema-de-gestion-master\clientemenu.cpp
@@ -224,7 +224,7 @@
 	"TipoPrestamoMenu.h"
 	"ListarTipoPrestamosMenu.h"
 
-1698260147 source:c:\users\angel\downloads\sistema-de-gestion-master\sistema-de-gestion-master\clientearchivo.cpp
+1698349658 source:c:\users\angel\downloads\sistema-de-gestion-master\sistema-de-gestion-master\clientearchivo.cpp
 	<iostream>
 	<clocale>
 	"ClienteArchivo.h"

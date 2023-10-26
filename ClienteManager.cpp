@@ -72,7 +72,7 @@ void ClienteManager::Cargar(){
 }
 
 void ClienteManager::Mostrar(Cliente reg){
-    cout << "* ----------------------------- * " << endl;
+    cout << "* ------------------------------ * " << endl;
     cout << "> ID Cliente    : " << reg.getId() << endl;
     cout << "> Nombre        : " << reg.getNombre() << endl;
     cout << "> Apellido      : " << reg.getApellido() << endl;
@@ -256,7 +256,10 @@ bool ClienteManager::OpcionesParaModificar(int posicion){
             break;
         }
     }while(confirmacion != true);
-
+    system("cls");
+    cout << "Modificacion con exito" << endl;
+    system("pause");
+    system("cls");
 }
 
 bool ClienteManager::ModificarNombre(int posicion){
@@ -269,10 +272,6 @@ bool ClienteManager::ModificarNombre(int posicion){
     aux.setNombre(nombre);
     _archivo.Guardar(aux, posicion);
 
-    system("cls");
-    cout << "Modificacion con exito" << endl;
-    system("pause");
-    system("cls");
     return true;
 }
 
@@ -286,10 +285,6 @@ bool ClienteManager::ModificarApellido(int posicion){
     aux.setApellido(apellido);
     _archivo.Guardar(aux, posicion);
 
-    system("cls");
-    cout << "Modificacion con exito" << endl;
-    system("pause");
-    system("cls");
     return true;
 }
 
@@ -304,10 +299,6 @@ bool ClienteManager::ModificarTelefono(int posicion){
     aux.setTelefono(telefono);
     _archivo.Guardar(aux, posicion);
 
-    system("cls");
-    cout << "Modificacion con exito" << endl;
-    system("pause");
-    system("cls");
     return true;
 }
 
@@ -322,10 +313,6 @@ bool ClienteManager::ModificarProvincia(int posicion){
     aux.getDireccion().setProvincia(provincia);
     _archivo.Guardar(aux, posicion);
 
-    system("cls");
-    cout << "Modificacion con exito" << endl;
-    system("pause");
-    system("cls");
     return true;
 }
 bool ClienteManager::ModificarLocalidad(int posicion){
@@ -339,10 +326,6 @@ bool ClienteManager::ModificarLocalidad(int posicion){
     aux.getDireccion().setLocalidad(localidad);
     _archivo.Guardar(aux, posicion);
 
-    system("cls");
-    cout << "Modificacion con exito" << endl;
-    system("pause");
-    system("cls");
     return true;
 }
 bool ClienteManager::ModificarCodigoPostal(int posicion){
@@ -356,10 +339,6 @@ bool ClienteManager::ModificarCodigoPostal(int posicion){
     aux.getDireccion().setCodigoPostal(codigoPostal);
     _archivo.Guardar(aux, posicion);
 
-    system("cls");
-    cout << "Modificacion con exito" << endl;
-    system("pause");
-    system("cls");
     return true;
 }
 
@@ -374,10 +353,6 @@ bool ClienteManager::ModificarCalle(int posicion){
     aux.getDireccion().setCalle(calle);
     _archivo.Guardar(aux, posicion);
 
-    system("cls");
-    cout << "Modificacion con exito" << endl;
-    system("pause");
-    system("cls");
     return true;
 }
 
@@ -392,10 +367,6 @@ bool ClienteManager::ModificarAltura(int posicion){
     aux.getDireccion().setAltura(altura);
     _archivo.Guardar(aux, posicion);
 
-    system("cls");
-    cout << "Modificacion con exito" << endl;
-    system("pause");
-    system("cls");
     return true;
 }
 

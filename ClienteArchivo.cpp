@@ -13,7 +13,7 @@ ClienteArchivo::ClienteArchivo(const char *_nombreArchivo){
 }
 
 //GUARDA UN REGISTRO, AL FINAL DE TODOS LOS REGISTROS EXISTENTES.
-bool ClienteArchivo::Guardar(Cliente reg){
+bool ClienteArchivo::Guardar(const Cliente &reg){
     bool pudoEscribir;
     FILE *p = fopen(nombreArchivo, "ab");
     if (p == nullptr){
@@ -25,7 +25,7 @@ bool ClienteArchivo::Guardar(Cliente reg){
 }
 
 //RECIBE UN REGISTRO Y REEMPLAZA SEGÚN EL LA POSICION QUE RECIBA COMO PARAMETRO.
-bool ClienteArchivo::Guardar(Cliente reg, int nroRegistro){
+bool ClienteArchivo::Guardar(const Cliente &reg, int nroRegistro){
     bool pudoEscribir;
     FILE *p = fopen(nombreArchivo, "rb+");
     if (p == nullptr){
